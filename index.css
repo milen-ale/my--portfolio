@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
+
+body{
+    border: 0;
+    margin: 0;
+    width: 3375px;
+    font-family:sans-serif;
+    height: 5410;
+}
+ 
+html{
+    background-color: #f3ecec;
+    overflow: hidden;
+}
+
+img{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top:0%;
+    z-index: 5;
+    box-shadow: 0.1rem 0.1rem rgb(245, 243,243);
+    background: #fff;
+
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 375px;
+ height: 48px;
+padding: 14px 24px;
+justify-content: space-between;
+}
+.my-button{
+    border: none;
+    background-color: #fff;
+}
+.my-logo{
+    font-family:'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #6070ff;
+}
+nav{
+    display:flex;
+    align-content: flex-end;
+    margin-right: 50x;
+}
+section{
+    position: relative;
+    top: 75px;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family:'poppins',sans-serif;
+    background-image: url(images/header-shapes-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 100px right;
+    background-size: auto 600px;
+    border-radius: 0% 0% 0% 0%;
+    padding-bottom: 50px;
+
+}
+.flex-container{
+background-color: white;
+}
+.flex-container{
+    width: 375px;
+    padding-top: 50px;
+}
+ section.name {
+     font-weight: 700;
+     font-size:40px;
+     padding-right: 168px;
+     margin-bottom: 0;
+     margin-top: 100px;
+    
+ }
+ p{
+     margin-top: 13px;
+     font-weight: 400;
+     font-size: 16px;
+     color: #344563;
+
+ }
+.connect{
+    display: flex;
+    gap:10px;
+    list-style: none;
+    padding-left: 0;
+}
+.social-media{
+    color:#7f8cff;
+}
