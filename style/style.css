@@ -103,9 +103,9 @@ nav {
   flex-grow: 0;
   width: 327px;
   height: 150px;
-  margin: bottom 0px;
-}
 
+  /* margin-bottom: 0px; */
+}
 .pharagraph {
   width: 327px;
   height: 146px;
