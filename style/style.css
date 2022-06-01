@@ -7,11 +7,6 @@ body {
   background-color: #f3ecec;
 }
 
-/* html {
-  background-color: #f3ecec;
-  overflow: hidden;
-} */
-
 img {
   cursor: pointer;
 }
@@ -21,7 +16,6 @@ a {
 }
 
 header {
-  /* position: fixed; */
   top: 0%;
   background: #fff;
 }
@@ -36,7 +30,6 @@ header {
 }
 
 .my-button {
-  border: none;
   background-color: #fff;
   margin-right: 60px;
 }
@@ -84,12 +77,6 @@ nav {
   width: 100vm;
 }
 
-/* .flex-container {
-  background-color: white;
-  width: 375px;
-  padding-top: 50px;
-} */
-
 .name {
   font-weight: 700;
   font-style: normal;
@@ -103,9 +90,9 @@ nav {
   flex-grow: 0;
   width: 327px;
   height: 150px;
-
-  /* margin-bottom: 0px; */
+  padding-top: 40px;
 }
+
 .pharagraph {
   width: 327px;
   height: 146px;
