@@ -21,6 +21,7 @@ a {
 }
 
 header {
+  /* position: fixed; */
   top: 0%;
   background: #fff;
 }
@@ -69,7 +70,7 @@ nav {
 
 .flex-container {
   display: flex;
-  padding-top: 65px;
+  top: 65px;
   flex-direction: column;
   padding-left: 24px;
   padding-right: 24px;
@@ -80,7 +81,14 @@ nav {
   padding-bottom: 10px;
   border-bottom-left-radius: 70px;
   background-size: cover;
+  width: 100vm;
 }
+
+/* .flex-container {
+  background-color: white;
+  width: 375px;
+  padding-top: 50px;
+} */
 
 .name {
   font-weight: 700;
@@ -95,7 +103,7 @@ nav {
   flex-grow: 0;
   width: 327px;
   height: 150px;
-  margin-bottom: 0;
+  margin: bottom 0px;
 }
 
 .pharagraph {
