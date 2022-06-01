@@ -28,8 +28,6 @@ a {
 header {
   position: fixed;
   top: 0%;
-
-  /* z-index: 5; */
   background: #fff;
 }
 
@@ -40,8 +38,6 @@ header {
   width: 375px;
   height: 48px;
   padding: 14px 0;
-
-  /* justify-content: space-between; */
 }
 
 .my-button {
@@ -86,8 +82,6 @@ section {
   font-family: "poppins", sans-serif;
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
-
-  /* background-position: 90px right; */
   background-size: auto 595px;
   border-radius: 0% 0% 0% 0%;
   padding-bottom: 10px;
@@ -107,10 +101,6 @@ section {
   font-size: 40px;
   line-height: 52px;
   display: flex;
-
-  /* padding-left: 10px;
-  margin-top: 30px;
-  margin-left: 10px; */
   color: #172b4d;
   align-items: center;
   flex: none;
