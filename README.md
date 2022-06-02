@@ -9,7 +9,17 @@ For this repository, I've created html templates and styling files in order to b
 
 ## Getting Started
 
-The first step is to create a github repository, after that clone the repository. After cloning the repository add readme, .gitignore and linter-config files. Next, add HTML and CSS files to check if linter is working , and add flexbox to make a good portfolio.
+To use this project properly, you must first clone or download the repository. Then, open the index.html file to view the main page of the website. You may add or change files by simply opening the file folder in VS code
+To get a local copy up and running follow these simple example steps.
+
+1. Open Terminal
+2. Clone the Project
+3. Open browser using `live server`
+
+## Prerequisites
+
+- IDE to edit and run the code (We use Visual Studio Code).
+- Git to versionning your work.
 
 ## Authors
 
