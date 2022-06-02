@@ -1,6 +1,9 @@
 # Mobile Virsion skeloton Portfolio
 
+
 For this repository, I've created html templates and styling files in order to built a mobile version portfolio , which can help to easy explorate profiles from differents mobile devices.
+
+
 
 ## Built With
 
@@ -20,6 +23,8 @@ To get a local copy up and running follow these simple example steps.
 
 - IDE to edit and run the code (We use Visual Studio Code).
 - Git to versionning your work.
+
+
 
 ## Authors
 
