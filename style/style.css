@@ -226,6 +226,7 @@ nav {
   font-size: 12px;
   padding: 4px 12px;
   list-style: none;
+  float: left;
 }
 
 .card button {
