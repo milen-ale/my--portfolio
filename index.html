@@ -246,5 +246,52 @@
         </div>
       </div>
     </section>
+
+    <section class="contact-me">
+      <footer>
+        <h2>Contact Me</h2>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+
+        <form
+          action=" https://formspree.io/f/xbjwbgzn"
+          id="form1"
+          method="post"
+          class="contact-form"
+        >
+          <input
+            type="text"
+            class="text-field"
+            placeholder="Your Name"
+            name="text"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+            class="email-field"
+            placeholder="Your email"
+            name="email"
+            maxlength="30"
+            required
+          />
+
+          <textarea
+            name="textarea"
+            class="textarea-field"
+            placeholder="Write Your Massage Here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button type="submit">Get In Touch</button>
+        </form>
+
+        <img class="shape" src="./images/Shape.png" alt="" />
+      </footer>
+    </section>
   </body>
 </html>
