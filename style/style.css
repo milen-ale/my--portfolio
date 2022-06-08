@@ -506,6 +506,7 @@ hr {
 }
 
 .form-btn:hover {
-  background-color: #60ffff;
+  background-color: #2230D2;
   color: white;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
 }
