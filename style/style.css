@@ -214,6 +214,7 @@ nav {
 
 .language {
   margin-left: 0;
+  float: left;
 }
 
 .language li {
@@ -406,4 +407,106 @@ button:hover {
 
 hr {
   flex: 0 0 100%;
+}
+
+.contact-me {
+  width: 100%;
+  height: 100%;
+  background: #6070ff;
+  padding-top: 9%;
+  padding-left: 6%;
+  padding-right: 6%;
+  border-top-left-radius: 90px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/contact-form.png);
+  background-size: cover;
+  margin-top: 113px;
+}
+
+.contact-me h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 103px;
+}
+
+.contact-me p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.text-field {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  height: 48px;
+  margin-bottom: 5px;
+}
+
+.email-field {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  height: 48px;
+  margin-bottom: 5px;
+}
+
+.textarea-field {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  height: max-content;
+  min-width: 327px;
+  min-height: 170px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textarea-field::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-btn {
+  padding: 10px 10px;
+  width: 130px;
+  height: 45px;
+  margin-top: 22px;
+  margin-bottom: 32px;
+  background: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6070ff;
+  border: none;
+}
+
+.shape {
+  display: flex;
+  margin: 15px auto;
+}
+
+.form-btn:hover {
+  background-color: #2230d2;
+  color: white;
+  box-shadow: rgba(64, 83, 252, 0.24);
 }
