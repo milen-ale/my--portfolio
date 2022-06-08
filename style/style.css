@@ -432,11 +432,11 @@ hr {
   line-height: 52px;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin-top: 103px;
 }
+
 .contact-me p {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -451,10 +451,11 @@ hr {
   width: 100%;
   gap: 16px;
 }
+
 .text-field {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   height: 48px;
   margin-bottom: 5px;
 }
@@ -462,7 +463,7 @@ hr {
 .email-field {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   height: 48px;
   margin-bottom: 5px;
 }
@@ -470,31 +471,27 @@ hr {
 .textarea-field {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   height: max-content;
   min-width: 327px;
   min-height: 170px;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .textarea-field::placeholder {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: normal;
 }
-form button {
+
+.form-btn {
   padding: 10px 10px;
   width: 130px;
   height: 45px;
   margin-top: 22px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -507,7 +504,7 @@ form button {
   margin: 15px auto;
 }
 
-form button:hover {
+.form-btn:hover {
   background-color: #60ffff;
   color: white;
 }
