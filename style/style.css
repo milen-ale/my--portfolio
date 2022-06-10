@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   margin: 0;
   background: #e5e5e5;
   height: 100%;
@@ -30,21 +30,25 @@ header {
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  width: 100vw;
-  height: 48px;
-  padding: 14px 0;
+  width: 100%;
+  height: 4.8em;
+  padding: 1.4rem 0;
+}
+
+.header ul {
+  display: none;
 }
 
 .my-button {
   background-color: #fff;
-  margin-right: 60px;
+  margin-right: 6rem;
 }
 
 .my-logo {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #6070ff;
   line-height: 20px;
   display: flex;
@@ -60,48 +64,41 @@ nav {
   display: flex;
   align-content: flex-end;
   margin-right: 40px;
-  width: 18px;
+  width: 1.8px;
   height: 12px;
   left: 3px;
-  top: 6px;
-  background: #6070ff;
 }
 
 .flex-container {
   display: flex;
-  top: 65px;
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
   font-family: "poppins", sans-serif;
   background-image: url(../images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-color: white;
   padding-bottom: 10px;
-  border-bottom-left-radius: 70px;
+  border-bottom-left-radius: 5em;
   background-size: cover;
-  width: 100vm;
+  width: 100%;
 }
 
 .name {
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
+  font-size: 3em;
   line-height: 52px;
   display: flex;
   color: #172b4d;
   align-items: center;
   flex: none;
   order: 0;
-  flex-grow: 0;
-  width: 327px;
-  height: 150px;
-  padding-top: 40px;
+  width: 100%;
 }
 
 .pharagraph {
-  width: 327px;
-  height: 146px;
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -109,9 +106,7 @@ nav {
   line-height: 24px;
   color: #344563;
   flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin-top: 7px;
+  margin-top: 0;
 }
 
 .connect {
@@ -119,18 +114,19 @@ nav {
   gap: 10px;
   list-style: none;
   padding-left: 0;
-  width: 117px;
-  height: 24px;
+  width: 100%;
+  height: 2.4em;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 0;
+
+  /* font-size: 1.6em; */
+  line-height: 2.4em;
+  padding-bottom: 20px;
 }
 
 .connect a {
-  padding: 3px;
+  padding: 0.3em;
 }
 
 .social-media-one {
@@ -141,8 +137,8 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(150px, auto);
-  margin: 15px, auto;
-  padding: 0 24px;
+  margin: 1.5em, auto;
+  padding: 0 1.4em;
 }
 
 .card {
@@ -152,7 +148,7 @@ nav {
   background-color: white;
   background-image: none;
   border: 0.2rem solid white;
-  margin: 75px auto;
+  margin: 4em auto;
 }
 
 .card-title {
@@ -161,6 +157,10 @@ nav {
   margin-top: 10px;
   width: 200px;
   margin-bottom: 3px;
+}
+
+.card-title-two {
+  display: none;
 }
 
 .card-about {
@@ -174,7 +174,7 @@ nav {
 .card-about ul {
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 16px;
   padding-left: 20px;
   color: #7a869a;
@@ -183,7 +183,11 @@ nav {
 .card p {
   color: #344563;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
+}
+
+.card1-description-alt-p {
+  display: none;
 }
 
 .card-about p {
@@ -214,7 +218,6 @@ nav {
 
 .language {
   margin-left: 0;
-  float: left;
 }
 
 .language li {
@@ -225,15 +228,13 @@ nav {
   color: #6070ff;
   font-weight: 500;
   font-size: 12px;
-  padding: 4px 12px;
   list-style: none;
 }
 
 .card button {
   color: #6070ff;
-  width: 124px;
+  width: 10rem;
   height: 44px;
-  border: 0.1rem solid;
   border-color: #6070ff;
   background-color: white;
   border-radius: 9px;
@@ -414,8 +415,8 @@ hr {
   height: 100%;
   background: #6070ff;
   padding-top: 9%;
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 20%;
+  padding-right: 20%;
   border-top-left-radius: 90px;
   display: flex;
   flex-direction: column;
@@ -510,3 +511,33 @@ hr {
   color: white;
   box-shadow: rgba(64, 83, 252, 0.24);
 }
+
+/* @media screen and (min-width: 768px) {
+  .flex-container {
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 10em;
+    padding-bottom: 9.5em;
+  }
+  body {
+  }
+
+  .header ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    width: 100%;
+  }
+  .my-logo {
+    padding-top: 25px;
+    padding-left: 155px;
+    align-items: center;
+    text-align: center;
+  }
+  .my-button {
+    display: none;
+  }
+  .name {
+    letter-spacing: 0.37px;
+  } */
