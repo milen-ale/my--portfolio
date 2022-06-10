@@ -79,6 +79,7 @@
   .connect li {
     transition: transform 0.2s;
   }
+
   .language-fream li {
     width: 122px;
     height: 120px;
@@ -86,6 +87,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .connect li:hover {
     transform: scale(2);
   }
