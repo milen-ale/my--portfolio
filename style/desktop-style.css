@@ -1,0 +1,131 @@
+@media (min-width: 768px) {
+  body {
+    max-width: 144rem;
+    min-height: auto;
+    font-size: 1rem;
+  }
+
+  .flex-container {
+    background-image: url(../images/Header.png);
+    background-size: cover;
+    padding: 160px 260px 90px 130px;
+  }
+
+  .my-button {
+    display: none;
+  }
+
+  .header ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .name {
+    display: flex;
+    margin: 0;
+  }
+
+  .card-container {
+    min-width: 100%;
+  }
+
+  .card {
+    display: flex;
+    min-width: 30rem;
+  }
+
+  .cardpic {
+    width: 120%;
+    height: 96%;
+  }
+
+  .card1-description-p {
+    display: none;
+  }
+
+  .card1-description-alt-p {
+    display: flex;
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    display: none;
+  }
+
+  .card-title-two {
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 5rem;
+    color: #091e42;
+    padding: top 0;
+    margin: 0;
+  }
+
+  .cardpic2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .desktop {
+    padding-left: 2rem;
+    margin: 0;
+  }
+
+  .connect li {
+    transition: transform 0.2s;
+  }
+  .language-fream li {
+    width: 122px;
+    height: 120px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .connect li:hover {
+    transform: scale(2);
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+  }
+
+  .about-me1 {
+    width: 50%;
+    margin-right: 46px;
+  }
+
+  .language-fream ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-me {
+    background-image: url(../images/contact\ form\ background\ shapesd.png);
+    background-size: contain;
+    align-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+
+  .email-field,
+  .text-field,
+  .textarea-field {
+    width: 500px;
+  }
+}
