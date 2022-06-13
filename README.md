@@ -7,6 +7,10 @@ For this repository, I've created html templates and styling files in order to b
 - HTML
 - CSS
 
+## Live Demo
+
+https://milen-ale.github.io/my--portfolio/
+
 ## Getting Started
 
 To use this project properly, you must first clone or download the repository. Then, open the index.html file to view the main page of the website. You may add or change files by simply opening the file folder in VS code
