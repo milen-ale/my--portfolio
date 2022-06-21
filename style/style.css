@@ -35,13 +35,46 @@ header {
   padding: 0.4rem 0;
 }
 
-.header ul {
+.header-ul {
   display: none;
 }
 
 .my-button {
   background-color: #fff;
   margin-right: 6rem;
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(96, 112, 255, 0.9);
+  width: 100%;
+  height: 800px;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+.list {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.link {
+  color: white;
+}
+
+.cancel {
+  margin-top: 40px;
+  margin-left: 90%;
 }
 
 .my-logo {
@@ -520,7 +553,6 @@ hr {
 .form-btn:hover {
   background-color: #2230d2;
   color: white;
-  box-shadow: rgba(64, 83, 252, 0.24);
 }
 
 /* @media screen and (min-width: 768px) {

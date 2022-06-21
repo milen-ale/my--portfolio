@@ -15,6 +15,14 @@
     display: none;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+
   .header ul {
     list-style: none;
     display: flex;
@@ -30,7 +38,7 @@
 
   .card-container {
     min-width: 100%;
-    padding: px;
+    padding: 25px;
     margin: 0%;
   }
 
@@ -64,7 +72,6 @@
     font-size: 2rem;
     line-height: 5rem;
     color: #091e42;
-    padding: top 0;
     margin: 0;
   }
 
