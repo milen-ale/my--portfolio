@@ -1,4 +1,4 @@
-/*eslint-env es6*/
+/*  eslint-env es6  */
 const menu = document.querySelector(".menu");
 const mobMenu = document.getElementById("mobile-menu");
 const link = document.querySelector(".one");
