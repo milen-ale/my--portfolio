@@ -13,16 +13,24 @@
   <body>
     <header class="header">
       <a href="#" class="my-logo"> <h3>Milen</h3> </a>
-      <ul>
-        <li><a href="#">Portfolio </a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#"> Contact</a></li>
+      <ul class="header-ul">
+        <li><a href="#portfolio">Portfolio </a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact"> Contact</a></li>
       </ul>
       <nav>
         <div class="my-button">
           <img alt="nav" class="menu" src="./images/Enabled.png" />
         </div>
       </nav>
+      <div class="mobile-menu" id="mobile-menu">
+        <img src="./images/cancel.png" alt="cancel" class="cancel" />
+        <ul class="list">
+          <li><a class="link one" href="#portfolio">Portfolio </a></li>
+          <li><a class="link two" href="#about">About</a></li>
+          <li><a class="link three" href="#contact"> Contact</a></li>
+        </ul>
+      </div>
     </header>
 
     <section class="flex-container">
@@ -71,7 +79,7 @@
       </ul>
     </section>
 
-    <section class="card-container">
+    <section class="card-container" id="portfolio">
       <section class="card">
         <img src="./images/card1.png" class="cardpic" alt="" />
         <div class="desktop">
@@ -180,7 +188,7 @@
       </section>
     </section>
 
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="about-me1">
         <h2 class="myself-name">
           About <br />
@@ -266,7 +274,7 @@
       </div>
     </section>
 
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
       <footer class="footer">
         <h2>Contact Me</h2>
         <p>
@@ -312,5 +320,6 @@
         <img class="shape" src="./images/Shape.png" alt="" />
       </footer>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
