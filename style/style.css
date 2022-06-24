@@ -285,6 +285,8 @@ nav {
 
 .err {
   background-color: #e5e5e5;
+  color: rgba(248, 21, 21, 0.74);
+  border: #b3bac5;
 }
 
 .about-me button {
