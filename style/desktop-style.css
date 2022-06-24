@@ -48,13 +48,18 @@
   }
 
   .cardpic {
+    background-size: 100% 100%;
     width: 50%;
     height: 96%;
   }
 
-  .card1-description-p {
-    display: none;
+  .card-popup {
+    width: 100%;
   }
+
+  /* .card1-description-p {
+    display: none;
+  } */
 
   .card1-description-alt-p {
     display: flex;
@@ -84,6 +89,11 @@
     padding-left: 2rem;
     margin: 0;
     width: 50%;
+  }
+
+  #modal {
+    width: 60vw;
+    height: 85vh;
   }
 
   .connect li {
@@ -168,5 +178,26 @@
     color: #b3bac5;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .card1-description {
+    width: 60%;
+    text-align: justify;
+    margin-right: 40px;
+  }
+
+  .work-button_1 {
+    width: 19px;
+    height: 13px;
+  }
+
+  .button-wrapper .error {
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 12px;
   }
 }
