@@ -48,12 +48,13 @@
   }
 
   .cardpic {
+    background-size: 100% 100%;
     width: 50%;
     height: 96%;
   }
 
   .card-popup {
-    width: 70%;
+    width: 100%;
   }
 
   /* .card1-description-p {
@@ -89,7 +90,10 @@
     margin: 0;
     width: 50%;
   }
-
+  #modal {
+    width: 60vw;
+    height: 85vh;
+  }
   .connect li {
     transition: transform 0.2s;
   }
@@ -187,5 +191,11 @@
   .work-button_1 {
     width: 19px;
     height: 13px;
+  }
+
+  .button-wrapper .error {
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 12px;
   }
 }

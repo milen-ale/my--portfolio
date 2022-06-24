@@ -189,6 +189,10 @@ nav {
 .popup-card {
   margin-top: 0;
 }
+.popup-header {
+  display: flex;
+  align-items: center;
+}
 
 .card-title {
   font-weight: 700;
@@ -199,7 +203,10 @@ nav {
 }
 
 .card-title-two {
-  display: none;
+  margin-right: auto;
+}
+.cardtwo {
+  margin: auto;
 }
 
 .card-about {
@@ -238,7 +245,10 @@ nav {
 }
 
 .cardpic {
+  background-size: 100% 100%;
   width: 100%;
+  background-repeat: no-repeat;
+  padding: 10px;
 }
 
 .card ul {
@@ -562,10 +572,7 @@ hr {
 .hide {
   display: none;
 }
-
-.close-btn {
-  margin-left: 95%;
-}
+/* .close-btn */
 
 .overlay {
   position: fixed;
@@ -575,7 +582,7 @@ hr {
   right: 0;
   z-index: 1;
   background-color: rgba(68, 96, 137, 0.3);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(10px);
   overflow-y: auto;
 }
 
@@ -591,4 +598,8 @@ hr {
   overflow-y: auto;
   border-radius: 10px;
   padding: 10px;
+}
+
+.card-pop1 {
+  width: 100%;
 }

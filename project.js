@@ -10,8 +10,8 @@ const projects = [
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent.',
     featured_image: './images/card1.png',
-    link_to_live: ['See live', './img/live.png', 'https://github.com'],
-    link_to_source: ['See source', './img/git.png', 'https://github.com'],
+    link_to_live: ['See live', './images/iconlive.png', 'https://github.com'],
+    link_to_source: ['See source', './images/github.png', 'https://github.com'],
     technologies: ['React', 'Redux', 'React-Router'],
     name_detail: ['Milen Alebel ', 'Front-End Dev', '2022'],
   },
@@ -64,11 +64,14 @@ seeProjectDetail.forEach((button) => {
     projectDetail.innerHTML = `
     <div class="overlay">
     <div id="modal">
-    <img class="close-btn"src="./images/Icon.png"  alt="Icon">
+    <div>
+   
     <section class="card  popup-card">
     <div class="">
-      <h2 class="card-title">${selectedProject.name}</h2>
-      <h2 class="card-title-two">${selectedProject.name}</h2>
+    <div class = popup-header>
+      <h2 class="card-title-two cardtwo">${selectedProject.name}</h2>
+      <img class="close-btn"src="./images/Icon.png"  alt="Icon">
+      </div>
       <div class="card-about">
         <p>CANOPY</p>
         <ul>
@@ -77,8 +80,7 @@ seeProjectDetail.forEach((button) => {
         </ul>
       </div>
      
-      <div class="cardpic  card-popup" style="background: url(${selectedProject.featured_image});
-      background-size: cover; width: 300px; height: 200px"></div>
+      <div class="card-popup"><img class="card-pop1" src="${selectedProject.featured_image}" alt="" /></div>
           <div class="flex">
           <div class="card1-description" >
           <p class="card1-description-p">
@@ -102,7 +104,7 @@ seeProjectDetail.forEach((button) => {
   </div>
   </div>
   </div>
-  <img class="shape" src="./images/Shape.png" alt="" />
+
     
   </section>
 </div>
