@@ -1,3 +1,5 @@
+/* eslint-env */
+
 const submit = document.querySelector('.form-btn');
 submit.addEventListener('click', (event) => {
   const error = document.querySelector('.err');
