@@ -90,10 +90,12 @@
     margin: 0;
     width: 50%;
   }
+
   #modal {
     width: 60vw;
     height: 85vh;
   }
+
   .connect li {
     transition: transform 0.2s;
   }

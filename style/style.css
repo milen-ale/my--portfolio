@@ -189,6 +189,7 @@ nav {
 .popup-card {
   margin-top: 0;
 }
+
 .popup-header {
   display: flex;
   align-items: center;
@@ -205,9 +206,10 @@ nav {
 .card-title-two {
   margin-right: auto;
 }
+
 .cardtwo {
   margin: auto;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .card-about {
