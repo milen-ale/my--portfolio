@@ -572,7 +572,12 @@ hr {
 .hide {
   display: none;
 }
-/* .close-btn */
+
+.close-btn {
+  width: 12px;
+  height: 12px;
+  margin-left: auto;
+}
 
 .overlay {
   position: fixed;
