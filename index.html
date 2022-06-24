@@ -78,7 +78,7 @@
         </li>
       </ul>
     </section>
-
+    <div class="project-container hide"></div>
     <section class="card-container" id="portfolio">
       <section class="card">
         <img src="./images/card1.png" class="cardpic" alt="" />
@@ -93,10 +93,6 @@
             </ul>
           </div>
           <div class="card1-description">
-            <p class="card1-description-p">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
             <p class="card1-description-alt-p">
               Exploring the future of media in Facebook's first Virtual Reality
               app; a place to discover and enjoy 360 photos and videos on Gear
@@ -108,7 +104,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button type="button">See Project</button>
+          <button type="button" class="pro-button" id="1">See Project</button>
         </div>
       </section>
 
@@ -133,7 +129,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button type="button">See Project</button>
+          <button type="button" class="pro-button" id="2">See Project</button>
         </div>
       </section>
 
@@ -158,7 +154,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button type="button">See Project</button>
+          <button type="button" class="pro-button" id="3">See Project</button>
         </div>
       </section>
 
@@ -183,7 +179,7 @@
             <li>css</li>
             <li>javascript</li>
           </ul>
-          <button type="button">See Project</button>
+          <button type="button" class="pro-button" id="4">See Project</button>
         </div>
       </section>
     </section>
@@ -292,6 +288,7 @@
           <input
             type="text"
             class="text-field"
+            id="name"
             placeholder="Your Name"
             name="text"
             maxlength="30"
@@ -299,8 +296,8 @@
           />
           <input
             type="email"
-            pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
             class="email-field"
+            id="email"
             placeholder="Your email"
             name="email"
             maxlength="30"
@@ -310,16 +307,24 @@
           <textarea
             name="textarea"
             class="textarea-field"
+            id="message"
             placeholder="Write Your Massage Here"
             maxlength="500"
             required
           ></textarea>
-          <button type="submit" class="form-btn">Get In Touch</button>
+          <div class="button-wrapper">
+            <button type="submit" value="submit" class="form-btn">
+              Get In Touch
+            </button>
+            <small class="err"></small>
+          </div>
         </form>
 
         <img class="shape" src="./images/Shape.png" alt="" />
       </footer>
     </section>
     <script src="script.js"></script>
+    <script src="project.js"></script>
+    <script src="validate.js"></script>
   </body>
 </html>
