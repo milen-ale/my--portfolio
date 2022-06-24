@@ -54,9 +54,7 @@ const projects = [
 
 seeProjectDetail.forEach((button) => {
   button.addEventListener('click', (e) => {
-    const selectedProject = projects.filter(
-      (project) => project.id === e.target.id
-    )[0];
+    const selectedProject = projects.filter((project) => project.id === e.target.id)[0];
     projectDetail.classList.remove('hide');
     mainTag.classList.add('fixed_postion');
     header.classList.add('fixed_postion');
