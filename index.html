@@ -288,6 +288,7 @@
           <input
             type="text"
             class="text-field"
+            id="name"
             placeholder="Your Name"
             name="text"
             maxlength="30"
@@ -295,10 +296,11 @@
           />
           <input
             type="email"
-            pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
             class="email-field"
+            id="email"
             placeholder="Your email"
             name="email"
+            type="email"
             maxlength="30"
             required
           />
@@ -306,11 +308,17 @@
           <textarea
             name="textarea"
             class="textarea-field"
+            id="message"
             placeholder="Write Your Massage Here"
             maxlength="500"
             required
           ></textarea>
-          <button type="submit" class="form-btn">Get In Touch</button>
+          <div class="button-wrapper">
+            <button type="submit" value="submit" class="form-btn">
+              Get In Touch
+            </button>
+            <small class="err"></small>
+          </div>
         </form>
 
         <img class="shape" src="./images/Shape.png" alt="" />
@@ -318,5 +326,6 @@
     </section>
     <script src="script.js"></script>
     <script src="project.js"></script>
+    <script src="validate.js"></script>
   </body>
 </html>

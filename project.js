@@ -78,7 +78,7 @@ seeProjectDetail.forEach((button) => {
       </div>
      
       <div class="cardpic  card-popup" style="background: url(${selectedProject.featured_image});
-      background-size: cover; width: 300px; height: 200px"></div>
+      background-size: 100% 100%;   background-repeat: no-repeat; width: 100%; height: 60vh" ></div>
           <div class="flex">
           <div class="card1-description" >
           <p class="card1-description-p">
@@ -102,7 +102,7 @@ seeProjectDetail.forEach((button) => {
   </div>
   </div>
   </div>
-  <img class="shape" src="./images/Shape.png" alt="" />
+
     
   </section>
 </div>
