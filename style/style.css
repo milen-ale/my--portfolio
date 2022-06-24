@@ -283,6 +283,10 @@ nav {
   font-size: 17px;
 }
 
+.err {
+  background-color: #e5e5e5;
+}
+
 .about-me button {
   font-style: normal;
   font-weight: 500;
